@@ -4,11 +4,12 @@ import { UseContextHook } from "./components/useContextHook";
 import { UseReducerHook } from "./components/UseReducerHook";
 import { UseCallbackHook } from "./components/UseCallbackHook";
 import { UseMemoHook } from './components/UseMemo';
+import { UseRefHook } from "./components/useRef";
 
 export default function App(): JSX.Element {
   return(
     <>
-      <UseMemoHook />
+      <UseRefHook />
     </>
   );
 };
