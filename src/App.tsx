@@ -6,11 +6,12 @@ import { UseCallbackHook } from "./components/UseCallbackHook";
 import { UseMemoHook } from './components/UseMemo';
 import { UseRefHook } from "./components/useRef";
 import { UseImperativeHandleHook } from "./components/UseImperativeHandleHook";
+import { UseLayoutEffectHook } from "./components/UseLayoutEffect";
 
 export default function App(): JSX.Element {
   return(
     <>
-      <UseImperativeHandleHook />
+      <UseLayoutEffectHook />
     </>
   );
 };
